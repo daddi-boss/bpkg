@@ -30,8 +30,9 @@ def main():
         )
         exit()
     
-    if sys.argv[2] == None:
-        print('The directory of the project you want to package should be the second argument')
+    if not sys.argv[1] == 'cleanup':
+        if sys.argv[2] == None:
+            print('The directory of the project you want to package should be the second argument')
     
     if sys.argv[1] == 'start':
         start_app(sys.argv[2])
