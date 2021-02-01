@@ -1,0 +1,1 @@
+Bpkg is tool to package applications into single files. It is inspired by jars in java but the speciality of bpkg is that it can be used for all kinds of apps be it python, java, javascript or virtually anything else.
